@@ -1,0 +1,21 @@
+{
+  "name": "get-iam-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-iam": "^3.319.0",
+    "@aws-sdk/client-sso": "^3.300.0",
+    "@aws-sdk/client-sts": "^3.300.0",
+    "@aws-sdk/credential-provider-node": "^3.300.0",
+    "json2csv": "^6.0.0-alpha.2"
+  },
+  "volta": {
+    "node": "18.16.0"
+  }
+}
